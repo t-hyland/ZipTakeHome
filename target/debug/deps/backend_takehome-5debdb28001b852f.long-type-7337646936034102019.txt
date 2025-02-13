@@ -1,0 +1,2 @@
+impl Future<Output = Result<string::String, reqwest::error::Error>>
+impl Future<Output = Result<std::string::String, reqwest::Error>>

@@ -1,0 +1,2 @@
+impl Future<Output = Result<reqwest::Response, reqwest::Error>>
+impl Future<Output = Result<reqwest::async_impl::response::Response, reqwest::error::Error>>

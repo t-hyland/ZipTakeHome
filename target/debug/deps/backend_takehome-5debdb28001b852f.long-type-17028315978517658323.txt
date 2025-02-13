@@ -1,0 +1,1 @@
+fn() -> impl Future<Output = Json<{type error}>> {devices}
