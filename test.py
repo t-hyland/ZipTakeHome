@@ -32,14 +32,5 @@ def part2():
     response = requests.get(url)
     print(response.text)
 
-# Testing authourization 
-def accessToken():
-    username = 'thyland'
-    password = 'Tomh101502!'
-    url = "https://zipziptest.jamfcloud.com/api/v1/auth/token"
-
-    response = requests.post(url, auth= (username, password))
-    print(response.text)
-
 part1()
 part2()
